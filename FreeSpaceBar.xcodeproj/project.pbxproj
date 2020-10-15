@@ -8,21 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		851B23C924C82D00008426E5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 851B23C824C82D00008426E5 /* AppDelegate.swift */; };
-		851B23CB24C82D00008426E5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 851B23CA24C82D00008426E5 /* ContentView.swift */; };
-		851B23CD24C82D02008426E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 851B23CC24C82D02008426E5 /* Assets.xcassets */; };
-		851B23D024C82D02008426E5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 851B23CF24C82D02008426E5 /* Preview Assets.xcassets */; };
-		851B23D324C82D02008426E5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 851B23D124C82D02008426E5 /* Main.storyboard */; };
+		851B23DC24C88DDB008426E5 /* Preview Content in Resources */ = {isa = PBXBuildFile; fileRef = 851B23DB24C88DDB008426E5 /* Preview Content */; };
+		851B23DE24C88E01008426E5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 851B23DD24C88E01008426E5 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		851B23C524C82D00008426E5 /* FreeSpaceBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FreeSpaceBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		851B23C824C82D00008426E5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		851B23CA24C82D00008426E5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		851B23CC24C82D02008426E5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		851B23CF24C82D02008426E5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		851B23D224C82D02008426E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		851B23D424C82D02008426E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		851B23D524C82D02008426E5 /* FreeSpaceBar.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FreeSpaceBar.entitlements; sourceTree = "<group>"; };
+		851B23DB24C88DDB008426E5 /* Preview Content */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "Preview Content"; sourceTree = "<group>"; };
+		851B23DD24C88E01008426E5 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,22 +52,12 @@
 			isa = PBXGroup;
 			children = (
 				851B23C824C82D00008426E5 /* AppDelegate.swift */,
-				851B23CA24C82D00008426E5 /* ContentView.swift */,
-				851B23CC24C82D02008426E5 /* Assets.xcassets */,
-				851B23D124C82D02008426E5 /* Main.storyboard */,
 				851B23D424C82D02008426E5 /* Info.plist */,
 				851B23D524C82D02008426E5 /* FreeSpaceBar.entitlements */,
-				851B23CE24C82D02008426E5 /* Preview Content */,
+				851B23DD24C88E01008426E5 /* Main.storyboard */,
+				851B23DB24C88DDB008426E5 /* Preview Content */,
 			);
 			path = FreeSpaceBar;
-			sourceTree = "<group>";
-		};
-		851B23CE24C82D02008426E5 /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				851B23CF24C82D02008426E5 /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -132,9 +118,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				851B23D324C82D02008426E5 /* Main.storyboard in Resources */,
-				851B23D024C82D02008426E5 /* Preview Assets.xcassets in Resources */,
-				851B23CD24C82D02008426E5 /* Assets.xcassets in Resources */,
+				851B23DC24C88DDB008426E5 /* Preview Content in Resources */,
+				851B23DE24C88E01008426E5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -145,23 +130,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				851B23CB24C82D00008426E5 /* ContentView.swift in Sources */,
 				851B23C924C82D00008426E5 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		851B23D124C82D02008426E5 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				851B23D224C82D02008426E5 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		851B23D624C82D02008426E5 /* Debug */ = {
@@ -284,6 +257,7 @@
 				CODE_SIGN_ENTITLEMENTS = FreeSpaceBar/FreeSpaceBar.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_ASSET_PATHS = "\"FreeSpaceBar/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = FreeSpaceBar/Info.plist;
@@ -305,6 +279,7 @@
 				CODE_SIGN_ENTITLEMENTS = FreeSpaceBar/FreeSpaceBar.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_ASSET_PATHS = "\"FreeSpaceBar/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = FreeSpaceBar/Info.plist;
